@@ -11,7 +11,7 @@ public class Basic {
     public String cityName;//城市名
 
     @SerializedName("id")
-    public String id;//城市天气对应的id
+    public String weatherId;//城市天气对应的id
 
     public Update update;//天气的更新时间
     public class Update{
